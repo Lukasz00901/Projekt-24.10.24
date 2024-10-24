@@ -1,4 +1,4 @@
-//import logo from "./logo.svg";
+
 import React from 'react';
 import "./App.css";
 import Navbar from "./components/layout/navbar/Navbar";
@@ -9,9 +9,9 @@ import Content from "./components/layout/content/Content";
 function App() {
   return (
       <div className="main-container">
-        <Navbar />
-        <Content />
-        <Footer />
+        <Navbar/>
+        <Content/>
+        <Footer/>
       </div>
   );
 }
