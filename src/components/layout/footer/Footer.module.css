@@ -1,0 +1,25 @@
+ .footer {
+   background-color: #333;
+   color: rgb(230, 230, 231);
+   border-top: 50px;
+   height: 60px;
+   font-size: 15px;
+   text-align: center;
+   align-items: center;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 25px;
+   
+ }
+
+.link {
+  color: white !important;
+}
+ p {
+   color: rgb(255, 255, 255);
+ }

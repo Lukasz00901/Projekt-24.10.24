@@ -1,10 +1,39 @@
 .navbar {
-  background-color: blueviolet;
-  height: 60px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  background-color: #333;
+  padding: 15px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #444;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
 }
 
 .homebtn {
-  background-color: blue;
+  background-color: #007bff; /* Spezifische Farbe für Home-Button */
+}
+
+.aboutbtn {
+  background-color: #28a745; /* Spezifische Farbe für Über Uns-Button */
+}
+
+.servicesbtn {
+  background-color: #ffc107; /* Spezifische Farbe für Services-Button */
+}
+
+.contactbtn {
+  background-color: #dc3545; /* Spezifische Farbe für Kontakt-Button */
 }

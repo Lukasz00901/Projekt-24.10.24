@@ -1,9 +1,21 @@
+import React from 'react';
+import styles from "./Footer.module.css";
+//import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
-    <div>
-       <footer>This is my footer</footer>
-    </div>
+     <div className={styles.footer}>
+      
+       <footer>
+       <p>&copy; 2024 Stefan, Markus, Lukas, Jeffrey, Muditha und Ivonne. Alle Rechte vorbehalten!</p>
+      <a className='link' href="/impressum">Impressum</a> | <a href="/Datenschutz">Datenschutz</a>   
+          {/*  <Link to="/impressum">Impressum</Link> | <Link to="/Datenschutz">Datenschutz</Link> */}
+       </footer> 
+        </div>
   );
 }
 
 export default Footer;
+
+
+

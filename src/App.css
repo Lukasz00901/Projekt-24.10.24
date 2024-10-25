@@ -1,13 +1,32 @@
-.main-container {
-  background-color: red;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+/* App.css */
+.App {
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+  }
+  
+  body{
+    background-color: rgb(75, 75, 75);
+  }
 
-.content {
-  background-color: aqua;
-  display: flex;
-  flex: 1;
+  h1 {
+    color: #ffffff;
+    margin: 20px 0;
+    font-size: 48px;
+    
+  }
+  
+  .carousel .legend {
+    max-block-size: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+
+  }
+  
+  /* Styles für Bilder */
+.bilder {
+
+    width: 600px !important;
+    height: 800px !important;
+    object-fit: cover;
 }
