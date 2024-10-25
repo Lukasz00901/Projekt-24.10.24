@@ -1,25 +1,34 @@
- .footer {
-   background-color: #333;
-   color: rgb(230, 230, 231);
-   border-top: 50px;
-   height: 60px;
-   font-size: 15px;
-   text-align: center;
-   align-items: center;
-   position: fixed;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   padding-bottom: 25px;
-   
- }
-
-.link {
-  color: white !important;
+footer a {
+  color: #d7d0cc;
+  text-decoration: none;
 }
- p {
-   color: rgb(255, 255, 255);
- }
+
+a {
+  margin: 0;
+  padding: 10px;
+  color: #ffffff; /* Weiß */
+  text-align: center;
+  text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
+a:hover {
+  color: #00ff00; /* Grün beim Hover */
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
+}
+
+
+
+p{
+  color: rgb(248, 248, 248);
+  
+}

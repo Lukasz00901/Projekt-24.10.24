@@ -12,28 +12,28 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  color: white;
-  background-color: #444;
+  color: rgb(0, 0, 0);
+  background-color: #333;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #ffffff;
 }
 
 .homebtn {
-  background-color: #007bff; /* Spezifische Farbe für Home-Button */
+  background-color: #8dc2fa; /* Spezifische Farbe für Home-Button */
 }
 
 .aboutbtn {
-  background-color: #28a745; /* Spezifische Farbe für Über Uns-Button */
+  background-color: #77ac83; /* Spezifische Farbe für Über Uns-Button */
 }
 
 .servicesbtn {
-  background-color: #ffc107; /* Spezifische Farbe für Services-Button */
+  background-color: #f5d881; /* Spezifische Farbe für Services-Button */
 }
 
 .contactbtn {
-  background-color: #dc3545; /* Spezifische Farbe für Kontakt-Button */
+  background-color: #d17a83; /* Spezifische Farbe für Kontakt-Button */
 }
