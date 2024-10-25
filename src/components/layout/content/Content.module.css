@@ -1,0 +1,42 @@
+/* App.css */
+.App {
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+  }
+  
+  body{
+    background-color: rgb(75, 75, 75);
+  }
+
+  h1 {
+    color: #ffffff;
+    margin: 20px 0;
+    font-size: 48px;
+    
+  }
+  
+  .carousel .legend {
+    max-block-size: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+      text-align: left;
+    display: inline-block;
+
+  }
+  
+  /* Styles für Bilder */
+.bilder {
+
+    width: 600px !important;
+    height: 800px !important;
+    object-fit: cover;
+}
+
+ul{
+  font-size: 17px;
+  color: white;
+  text-align: left;
+  display: inline-block;
+
+}
